@@ -12,7 +12,6 @@ def embed_text(text):
     )
     return response.data[0].embedding
 
-# ✅ Test
 if __name__ == "__main__":
     sample = "Employees are entitled to 15 days of paid vacation annually."
     vec = embed_text(sample)
